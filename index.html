@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1>My Beauti Cam</h1>
+        <i style="font-size: 50px;" class="fa">&#xf030;</i>
+    </div>
+ 
+    <div class="row">
+        <div class="video-wrap">
+            <video id="video" autoplay controls></video><br>
+            <button id="snap">Caputure Photo</button>
+
+        </div>
+    
+        <div class="controller">
+            <canvas id="canvas" width="600" height="420"></canvas>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
